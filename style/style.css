@@ -215,3 +215,35 @@ margin-bottom: 113px;}
     display: block;
     margin: 50px auto;
 }
+
+/* footer style */
+footer{
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%  ;
+}
+.footer-column p{
+    margin: 24px 0px;
+}
+footer input[type="text"], footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    border: none;
+}
+footer textarea{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
